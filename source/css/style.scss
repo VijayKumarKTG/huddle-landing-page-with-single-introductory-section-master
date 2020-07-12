@@ -56,7 +56,7 @@ footer {
     li {
       display: inline;
       margin: 0px 20px;
-      padding: 7px;
+      padding: 12px;
       border: 2px solid #fff;
       border-radius: 50%;
 
@@ -84,7 +84,7 @@ footer {
 
 @media screen and (min-width: $tabletMinWidth) {
   body {
-    padding: 60px 100px;
+    padding: 60px 80px;
   }
 }
 
@@ -101,7 +101,7 @@ footer {
 
   main {
     display: flex;
-    padding-top: 100px;
+    padding-top: 80px;
 
     .imageDiv {
       width: 60%;

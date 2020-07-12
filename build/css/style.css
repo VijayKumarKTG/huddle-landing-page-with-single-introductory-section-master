@@ -49,7 +49,7 @@ footer ul {
 footer ul li {
   display: inline;
   margin: 0px 20px;
-  padding: 7px;
+  padding: 12px;
   border: 2px solid #fff;
   border-radius: 50%;
 }
@@ -71,7 +71,7 @@ footer .attribution a {
 
 @media screen and (min-width: 768px) {
   body {
-    padding: 60px 100px;
+    padding: 60px 80px;
   }
 }
 @media screen and (min-width: 1024px) and (orientation: landscape) {
@@ -87,7 +87,7 @@ footer .attribution a {
 
   main {
     display: flex;
-    padding-top: 100px;
+    padding-top: 80px;
   }
   main .imageDiv {
     width: 60%;
