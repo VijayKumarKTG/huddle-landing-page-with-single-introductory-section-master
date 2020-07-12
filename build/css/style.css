@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+body {
+  font-family: "Poppins", sans-serif;
+  background: #674baf url(../../images/bg-mobile.svg) top center/contain no-repeat;
+  color: white;
+  padding: 30px;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+header {
+  width: 150px;
+  margin-bottom: 50px;
+}
+
+main div {
+  text-align: center;
+}
+main div h1 {
+  font-size: 1.5em;
+  font-weight: 500;
+}
+main div p {
+  font-size: 16px;
+  font-family: "Open Sans", sans-serif;
+}
+main div button {
+  width: 70%;
+  padding: 13px;
+  font-size: 15px;
+  border: none;
+  border-radius: 20px;
+  color: #674baf;
+  background-color: white;
+  box-shadow: 0px 3px 3px 2px #00000042;
+}
+
+footer ul {
+  list-style-type: none;
+  text-align: center;
+  padding: 0px;
+  margin: 70px 0px 30px 0px;
+}
+footer ul li {
+  display: inline;
+  margin: 0px 20px;
+  padding: 7px;
+  border: 2px solid #fff;
+  border-radius: 50%;
+}
+footer ul li a {
+  color: white;
+  font-size: 15px;
+}
+footer ul li a i {
+  width: 20px;
+  height: 20px;
+}
+footer .attribution {
+  font-size: 11px;
+  text-align: center;
+}
+footer .attribution a {
+  color: white;
+}
+
+@media screen and (min-width: 768px) {
+  body {
+    padding: 60px 100px;
+  }
+}
+@media screen and (min-width: 1024px) and (orientation: landscape) {
+  body {
+    background-image: url(../../images/bg-desktop.svg);
+    background-size: cover;
+  }
+
+  header {
+    width: 200px;
+    margin-bottom: 0px;
+  }
+
+  main {
+    display: flex;
+    padding-top: 100px;
+  }
+  main .imageDiv {
+    width: 60%;
+    margin-right: 40px;
+  }
+  main .textDiv {
+    text-align: left;
+    width: 30%;
+  }
+  main .textDiv h1 {
+    margin-top: 50px;
+    font-size: 2em;
+    font-weight: 500;
+  }
+  main .textDiv p {
+    font-size: 15px;
+    font-family: "Open Sans", sans-serif;
+    word-spacing: 3px;
+  }
+  main .textDiv button {
+    width: 50%;
+    padding: 15px;
+    font-size: 20px;
+    border-radius: 30px;
+  }
+  main:first-child {
+    width: 90%;
+  }
+
+  footer {
+    margin-top: -70px;
+  }
+  footer ul {
+    text-align: right;
+  }
+  footer ul li {
+    margin: 0px 10px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
